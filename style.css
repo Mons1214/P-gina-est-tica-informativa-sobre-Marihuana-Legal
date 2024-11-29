@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-flow: column ;
+    background-color: black;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+.primera-seccion {
+    display: flex;
+    border: 1px solid;
+}
+.segunda-seccion {
+    display: flex;
+    border: 1px solid;
+}
+.nombre-cliente {
+    display: flex;
+    border: 1px solid;
+}
+.formulario {
+    display: flex;
+    border: 1px solid;
+    width: 100%;
+
+}
+.name-comentario {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.envia-informacion {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;  
+}
+.enviando {
+    width: 100%;
+}
+.encabezado {
+    color: brown;
+}
+.parrafo {
+    color: aliceblue;
+}
+.parrafo-2 {
+    color: aliceblue;
+}

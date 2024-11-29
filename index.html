@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marihuana legal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
 </head>
 <body>
-    <div id="container">
-        <div>
-            <h1>Mariguana Legal</h1>
+    <div id="container" class="container">
+        <div class="titulo">
+            <h1 class="encabezado">Mariguana Legal</h1>
         </div>
-        <div>
+        <div class="primera-seccion">
             <img src="cannabis.jpeg" alt="" width="300" height="200">
-            <p>
+            <p class="parrafo">
                 Las leyes suelen contemplar penas por tráfico, cultivo o posesión para 
                 consumo propio. La dureza de las penas varían según el país. 
                 Los Países Bajos es el único país de la Unión Europea donde se permite legalmente 
@@ -29,8 +31,8 @@
                 planta, estrictamente para consumo personal.
             </p>
         </div>
-        <div>
-            <p> 
+        <div class="segunda-seccion">
+            <p class="parrafo-2"> 
                 -En noviembre de 2015, la Suprema Corte de Justicia de la Nación estableció que la 
                 Sociedad Mexicana de Autoconsumo Responsable y Tolerante (Smart) tiene el derecho de cultivar 
                 marihuana para el autoconsumo sin fines de lucro.
@@ -44,12 +46,14 @@
             </p>
             <img src="download.jpeg" alt="" width="300" height="200">
         </div>
-        <div>
-            <input type="text" id="input-name" placeholder="ingresa tu nombre">
-            <input type="text" id="input-comentario" placeholder="ingresa tu comentario">
-        </div>
-        <div>
-            <button type="submit" id="envia-informacion">Enviar</button>
+        <div class="formulario">
+            <div class="name-comentario">
+                <input type="text" id="input-name" placeholder="ingresa tu nombre">
+                <input type="text" id="input-comentario" placeholder="ingresa tu comentario">
+            </div>
+            <div class="envia-informacion">
+                <button class="enviando">Enviar</button>
+            </div>
         </div>
     </div>
 </body>
