@@ -20,4 +20,3 @@ buttonEnviar.addEventListener("click", (evento) => {
     inputName.value = ""
     inputComent.value = ""
 });
-
